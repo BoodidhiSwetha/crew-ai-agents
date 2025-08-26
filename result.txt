@@ -1,0 +1,77 @@
+▶️ Starting pipeline...
+✅ Saved 20 SEC filings → sec_filings.csv
+
+📌 SEC Summary:
+ Here are 5 concise bullet points summarizing the recent SEC Form 4 insider filings:
+
+* **No notable insider buys or sells**: The recent filings are mostly 424B2 and 424B3 forms, which are related to debt or equity offerings, rather than insider buying or selling activity.
+* **Financial institutions dominate filings**: JPMorgan Chase, Goldman Sachs, Morgan Stanley, and Barclays are among the companies with recent filings, indicating ongoing capital markets activity in the financial sector.
+* **Companies to watch**: Investors may want to keep an eye on JPMorgan Chase, Goldman Sachs, and Morgan Stanley, as they have multiple recent filings, which could indicate potential changes in their financial positioning or strategic direction.
+* **Activity is largely routine**: The filings appear to be mostly routine capital markets activity, such as debt offerings or prospectus updates, rather than indicating any significant changes in insider sentiment or market trends.
+* **No clear market implications**: Based on the available information, there are no clear market implications or trading opportunities that can be inferred from these filings, as they do not provide insight into insider buying or selling activity or significant changes in company fundamentals.
+✅ Normalized CSV saved → tweets_dataset_normalized.csv (3 rows)
+
+📌 Twitter Summary:
+ ```json
+{
+  "per_post": [
+    {
+      "user": "elonmusk",
+      "content": "Excited about Starship launch tomorrow!",
+      "label": "positive",
+      "theme": "Space"
+    },
+    {
+      "user": "nasa",
+      "content": "We just launched a new satellite to monitor climate change.",
+      "label": "neutral",
+      "theme": "Space"
+    },
+    {
+      "user": "jack",
+      "content": "Our new platform update is live check it out!",
+      "label": "positive",
+      "theme": "Tech"
+    }
+  ],
+  "overall": [
+    "The overall sentiment of the posts is generally positive, with two out of three posts expressing excitement or announcing new developments.",
+    "The main themes of the posts are space and technology, with Elon Musk and NASA discussing space-related topics and Jack discussing a platform update.",
+    "The posts suggest a sense of innovation and progress, with new launches and updates being announced, which could indicate a growing interest in space exploration and technological advancements."
+  ]
+}
+```
+✅ Normalized CSV saved → youtube_videos_normalized.csv (3 rows)
+
+📌 YouTube Summary:
+ ```
+{
+  "per_post": [
+    {
+      "user": "NASA",
+      "content": "Mars Rover Landing",
+      "label": "positive",
+      "theme": "Space Exploration"
+    },
+    {
+      "user": "TechGuru",
+      "content": "New AI Tutorial",
+      "label": "positive",
+      "theme": "AI Learning"
+    },
+    {
+      "user": "ElonMusk",
+      "content": "Starship Update",
+      "label": "positive",
+      "theme": "Space Tech"
+    }
+  ],
+  "overall": [
+    "The overall sentiment of the YouTube posts is positive, indicating excitement and interest in technological advancements and space exploration.",
+    "The main themes of the posts include space exploration, AI learning, and space tech, highlighting the users' focus on innovation and discovery.",
+    "The posts from NASA, TechGuru, and ElonMusk suggest a community that values knowledge sharing and progress in the fields of technology and space travel."
+  ]
+}
+```
+
+✅ Done. Outputs: sec_filings.csv, twitter_posts.csv, youtube_posts.csv, sentiment_results.csv, sentiment_results.xlsx
